@@ -1,0 +1,81 @@
+/* Set default font family and color */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Navigation bar */
+  .navbar {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  /* Navbar links */
+  .navbar-brand,
+  .nav-link {
+    color: #333;
+  }
+  
+  /* Navbar link when active */
+  .nav-link.active {
+    font-weight: bold;
+  }
+  
+  /* Product card */
+  .card {
+    margin-bottom: 1.5rem;
+    border: none;
+  }
+  
+  /* Product image */
+  .product-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Product title */
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  /* Product price */
+  .card-text {
+    font-size: 1.1rem;
+  }
+  
+  /* Buy button */
+  .btn-light {
+    background-color: #f8f9fa;
+    color: #333;
+    border: 1px solid #333;
+  }
+  
+  .btn-light:hover {
+    background-color: #333;
+    color: #f8f9fa;
+  }
+  
+  /* Page title */
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+  
+  /* Search form */
+  .form-control {
+    width: 100%;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 4rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+    text-align: center;
+  }
+  
